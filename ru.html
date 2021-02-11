@@ -1,0 +1,434 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="/dist/ru.css">
+    <link rel="shortcut icon" href="/src/img/favicon.ico" type="image/x-icon">
+    <title>Sphere-book</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <a href="ru.html"><img src="/src/img/logo-sphere.png" height="60" alt=""></a>
+        </div>
+        <div class="nav">
+            <a id="trigger" class="menu-trigger type7">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul id="menu">
+                <li> <a href="#our-works">Портфолио</a> </li>
+                <li> <a href="#info">Предложение</a> </li>
+                <li> <a href="#about-us">О нас</a> </li>
+                <li> <a href="#reviews">Отзывы</a> </li>
+            </ul>
+        </div>
+        <div class="social">
+            <div class="row justify-content-between">
+                <a href="https://www.facebook.com/spheredigitech" target="_blank">
+                    <svg viewBox="0 0 512 512" height="30" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m75 512h167v-182h-60v-60h60v-75c0-41.355469 33.644531-75 75-75h75v60h-60c-16.542969 0-30 13.457031-30 30v60h87.292969l-10 60h-77.292969v182h135c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75zm-45-437c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v362c0 24.8125-20.1875 45-45 45h-105v-122h72.707031l20-120h-92.707031v-30h90v-120h-105c-57.898438 0-105 47.101562-105 105v45h-60v120h60v122h-137c-24.8125 0-45-20.1875-45-45zm0 0" />
+                    </svg>
+                </a>
+
+                <a href="https://www.instagram.com/nik_kosarev/?hl=ru" target="_blank">
+                    <svg viewBox="0 0 512.00096 512.00096" height="30" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m373.40625 0h-234.8125c-76.421875 0-138.59375 62.171875-138.59375 138.59375v234.816406c0 76.417969 62.171875 138.589844 138.59375 138.589844h234.816406c76.417969 0 138.589844-62.171875 138.589844-138.589844v-234.816406c0-76.421875-62.171875-138.59375-138.59375-138.59375zm108.578125 373.410156c0 59.867188-48.707031 108.574219-108.578125 108.574219h-234.8125c-59.871094 0-108.578125-48.707031-108.578125-108.574219v-234.816406c0-59.871094 48.707031-108.578125 108.578125-108.578125h234.816406c59.867188 0 108.574219 48.707031 108.574219 108.578125zm0 0" />
+                        <path
+                            d="m256 116.003906c-77.195312 0-139.996094 62.800782-139.996094 139.996094s62.800782 139.996094 139.996094 139.996094 139.996094-62.800782 139.996094-139.996094-62.800782-139.996094-139.996094-139.996094zm0 249.976563c-60.640625 0-109.980469-49.335938-109.980469-109.980469 0-60.640625 49.339844-109.980469 109.980469-109.980469 60.644531 0 109.980469 49.339844 109.980469 109.980469 0 60.644531-49.335938 109.980469-109.980469 109.980469zm0 0" />
+                        <path
+                            d="m399.34375 66.285156c-22.8125 0-41.367188 18.558594-41.367188 41.367188 0 22.8125 18.554688 41.371094 41.367188 41.371094s41.371094-18.558594 41.371094-41.371094-18.558594-41.367188-41.371094-41.367188zm0 52.71875c-6.257812 0-11.351562-5.09375-11.351562-11.351562 0-6.261719 5.09375-11.351563 11.351562-11.351563 6.261719 0 11.355469 5.089844 11.355469 11.351563 0 6.257812-5.09375 11.351562-11.355469 11.351562zm0 0" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/nikita-kosarev-202b0a1a3/" target="_blank">
+                    <svg id="Bold" enable-background="new 0 0 24 24" height="30" viewBox="0 0 24 24" width="24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                        <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                        <path
+                            d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="order">
+        <div class="row">
+            <div class="col-md-6 txt">
+                <h1>Закажите свой сайт писателя или книги</h1>
+                <div class="d-flex justify-content-center">
+                    <a href="#form">
+                        <div class="btn-buy">
+                            <p>Заказать</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center"">
+                        <img class=" order-img" src="/src/img/order-ru.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <section class="pre-text">
+        <div class="container">
+            <h1 class="text-center">Почему вашей книге нужен сайт? </h1>
+            <h4 class="text-center" style="padding-top:20px;">САЙТ ВАШЕЙ КНИГИ, ЭТО 10000 НОВЫХ ВОЗМОЖНОСТЕЙ КАЖДЫЙ ДЕНЬ
+            </h4>
+            <p style="padding: 30px 0px;">
+
+                В поисковой системе Google количество поисковых запросов в месяц «buy books online» до 100 000,
+                «modernist writers, contemporary writers» набирали до 20000 раз.
+
+                В поисковой системе Yandex количество запросов «современный автор» 93000 в месяц. Запрос «современные
+                писатели» 42000 в месяц. Запрос «официальный сайт писателя» используют 4000 раз в месяц. Запрос «купить
+                книгу» в течении месяца использовали больше одного миллиона раз.</p>
+            <p>
+                Индивидуальный сайт писателя или сайт книги является ядром продвижения Вас, как автора или центром
+                продвижения Вашей книги. Вокруг Вашего сайта строится все взаимодействие с аудиторией с издателем. Это
+                даст возможность продавать результат своего труда получая, заслуженное вознаграждение.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="our-works" id="our-works">
+        <div class="container text-center" style="margin-bottom: 20px; ">
+            <h1 style="border-bottom:1px solid #FC7900; display: initial;">Портфолио</h1>
+
+        </div>
+        <div class="img-block d-flex justify-content-center">
+            <div class="col-md-5">
+                <a href=" http://kiriil.spheredigitech.com/" target="_blank"><img class="img-href"
+                        src="/src/img/steel-gold-bk.png" alt=""></a>
+            </div>
+            <div class="col-md-5">
+                <a href="http://saga.writer-book.com/" target="_blank"> <img class="img-href"
+                        src="/src/img/saga-port.png" alt=""></a>
+            </div>
+        </div>
+        <div class="img-block d-flex justify-content-center">
+            <div class="col-md-5">
+                <a href=" http://rivkin.acrnm.pro/" target="_blank"><img class="img-href" src="/src/img/rivkin.png"
+                        alt=""></a>
+            </div>
+            <div class="col-md-5">
+                <a href="http://3.writer-book.com/" target="_blank"><img class="img-href"
+                        src="/src/img/steel-gold-video.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="booktrailers">
+        <div class="container text-center" style="margin-bottom: 20px;">
+            <h1 style="border-bottom:1px solid #FC7900; display: initial;">Буктрейлеры</h1>
+        </div>
+
+        <div class="img-block d-flex justify-content-center">
+
+            <div class="col-md-5">
+                <div class="video-play" data-youtube="https://www.youtube.com/embed/b4SOWW278Gs">
+                    <img class="img-video" src="/src/img/steel-gold-bt.png" alt="image">
+                </div>
+            </div>
+            <div class="col-md-5">
+                    <div class="video-play" data-youtube="https://www.youtube.com/embed/LKZjBNmIAjw">
+                    <img class="img-video" src="/src/img/saga-port.png" alt="image">
+                </div>
+            </div>
+        </div>
+
+        <div class="img-block d-flex justify-content-center">
+            <div class="col-md-5">
+                    <div class="video-play" data-youtube="https://www.youtube.com/embed/0Mr_NMD3VKw">
+                    <img class="img-video" src="/src/img/sosuden-bt.png" alt="image">
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="info" id="info">
+        <div class="container" style="margin-bottom: 20px;">
+            <h1 style="border-bottom:1px solid #FC7900; display: initial;">Уникальное предложение </h1>
+        </div>
+
+        <div class="d-flex justify-content-center info-block">
+
+            <div class="col-md-5 d-flex align-items-center">
+                <div class="text-center order-btn">
+                    <h3 class="text-center"></h3>
+                    <p style="font-size: 30px;"> Полный пакет за 200$ </p>
+                    <a href="#form">
+                        <div class="btn-order">
+                            <p>Заказать</p>
+                        </div>
+                    </a>
+                    <p style="padding-top: 30px; font-size: 25px;"> Сайт + буктрейлер + бонус от проекта "СФЕРА"
+                        (бесплатный хостинг и поддомен для вашего сайта на 12 месяцев.) </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p>
+                    Ваш уникальный сайт даст Вам возможность донести почему читатель должен выбрать именно Вашу книгу,
+                    донести свои идеи до аудитории и издателей. Привлечь внимание обложкой, цитатами, выдержками,
+                    отзывами — это все и сделает Вас и Ваш труд популярными.
+
+                    <br> <br>
+
+                    Для этих целей не подходит шаблонный сайт, Вы будете, как книга стоящая на полке среди тысяч других
+                    книг. Вам нужно быть не на полке, а на самом видном месте, чтобы не было возможности обойти Вас
+                    вниманием! Только сайт писателя построенный из расчета на читателя, на их мотивы, на их реакции,
+                    способен связать все инструменты продвижения книги и сделать Вас известным и популярным автором.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-us" id="about-us">
+        <div class="container" style="margin-bottom: 20px;">
+            <h1 style="border-bottom:1px solid #FC7900; display: initial;"> О нас </h1>
+        </div>
+
+        <div class="d-flex justify-content-center about">
+            <div class="img-about"> <img src="/src/img/about-rus.png" alt=""> </div>
+            <div class="text-about d-flex align-items-center">
+                <p>Проект «СФЕРА» родился из понимания, что нельзя предоставить качественную услугу клиенту без
+                    комплексного подхода к решению задач. В 2018 году было принято решение сконцентрироваться на бизнес
+                    доменах, где наш бэкграунд был максимальный. <br> <br> Сейчас мы предлагаем лучшие интернет решения
+                    для
+                    писателей и их книг, музеев, художников, антикварных магазинов и аукционов. Мы объединили в одном
+                    пространстве дизайнеров, веб-разработчиков, маркетологов. Комплексный подход и специализация,
+                    позволяют выполнять поставленные вами задачи качественно, быстро и за разумную цену.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+                <div class="container" style="margin-bottom: 20px;">
+                        <h1 style="border-bottom:1px solid #FC7900; display: initial;"> Подарок </h1>
+                    </div>
+            <div class="row">
+                <div class="col-md-6">
+                    Один из наиболее эффективных каналов продаж в интернете, это социальные сети, многие авторы и
+                    магазины продают книги в Facebook, Instagram и других социальных сетях. Для продажи в социальных
+                    сетях важен комплексный подход, это создание качественного сайта с которого будут проводиться
+                    продажи, создание и оформление страниц в социальных сетях для вашей книги или для автора. Но
+                    основной канал продаж вашей книги это таргетированная реклама.
+                    <br> <br>
+                    Таргетированная реклама — это объявления, которые пользователи социальных сетей видят в ленте или на
+                    своей странице. Такую рекламу можно настроить с учетом различных параметров: пол, возраст, город и
+                    страна, профессии, интересы. Такая реклама показывается только вашей целевой аудитории.
+                </div>
+                <div class="col-md-6">
+                    <div class="col-md-5 d-flex align-items-center">
+                        <div class="text-center order-btn">
+                            <p style="padding-top: 25px; font-size: 25px;"> Как правильно составить портрет вашей
+                                целевой аудитории в Facebook и Instagram! (PDF) </p>
+                                <a >
+                                        <div class="btn-buy"data-modal >
+                                                <p>Скачать бесплатно</p>
+                                            </div>
+                                </a>
+                               
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container" style="margin-bottom: 20px;">
+            <h1 style="border-bottom:1px solid #FC7900; display: initial;">Отзывы</h1>
+        </div>
+
+
+        <div class="slider">
+            <div class="slider__wrapper">
+                <div class="slider__item">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex card-header">
+                                <img src="/src/img/maks-photo.png" alt="">
+                                <h5 class="card-title">Максим Остапенко</h5>
+                            </div>
+
+                            <p class="card-text">Для разработки нового сайта для национального заповедника мы
+                                рассматривали различные варианты но остановились на специалистах проекта "СФЕРА". Наш
+                                проект имел особенности, заповедник занимает большую территорию, на которой расположены
+                                несколько музеев и других культурных объектов. В результате все работы выполнены отлично
+                                и в срок. Мы получили отличный продукт и сэкономили время и деньги!</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="">Было обновлено 2 дня назад</small>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider__item">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex card-header ">
+                                <img src="/src/img/anton-photo.png" alt="">
+                                <h5 class="card-title">Антон Городецкий</h5>
+                            </div>
+                            <p class="card-text">Когда возникла идея обновить вебсайт музея, мы обратились к нашему
+                                постоянному консультанту Роману Косареву. Используя опыт мы вместе смогли сформировать
+                                техзадание и реализовать задуманное. В цифровом музее не просто было объединить строгий
+                                стиль, удобство и информативность, но, как нам показалось, проект "СФЕРА" на отлично
+                                справился с поставленной задачей и учел все особенности нашей коллекции. </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="">Было обновлено 2 дня назад</small>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider__item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex card-header">
+                                <img src="/src/img/vlad-photo.png" alt="">
+                                <h5 class="card-title">Влад Зинченко</h5>
+                            </div>
+                            <p class="card-text">Воспользовался услугами по созданию сайта. Сделали на удивление быстро
+                                и качественно и все доделки устраняли оперативно в течении пары часов, что было
+                                удивительно после работы с другими менее организованными программистами. По сравнению с
+                                wordpress - небо и земля! </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="">Было обновлено 2 дня назад</small>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <a class="slider__control slider__control_left" href="#" role="button"></a>
+            <a class="slider__control slider__control_right" href="#" role="button"></a>
+        </div>
+    </section>
+
+    <section class="form-section" id="form">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xs-6 col-sm-10 col-md-8 col-lg-6 col-xs-offset-3">
+                    <form id="contact-form" class="form" action="mail-send-rus.php" method="post" role="form">
+                        <div class="container text-center"
+                            style="background-color: #1b904e; border-radius: 9px 9px 0px 0px;  padding: 20px; margin-bottom: 20px; color: white; font-size: 25px;">
+                            ПОЛУЧИТЬ БЕСПЛАТНУЮ КОНСУЛЬТАЦИЮ </div>
+                        <div style="padding:20px;">
+                            <div class="form-group">
+                                <label class="form-label" for="name">Ваше имя*</label>
+                                <input type="text" class="form-control" id="name" placeholder="Имя" required
+                                    name="name">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="email">Ваша почта*</label>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Почта"
+                                    required name="email">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="message">Сообщение</label>
+                                <textarea name="message" rows="5" cols="50" name="message" class="form-control"
+                                    id="message" placeholder="Сообщение..." tabindex="4"></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" style="font-weight: bold;" class="btn btn-start-order">Отправить вопрос</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal__window" data-close="">
+        <div class="container">
+            <div class="modal__block">
+                <div class="container">
+                    <div class="row justify-content-center" data-close>
+                        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3" data-close="">
+                            <div class="d-flex justify-content-end">
+                                <div class="div test">
+                                    <div class="modal__close" data-close>×</div>
+                                </div>
+                            </div>
+                            <form id="contact-form" style="background-color:white" class="form" action="get-pdf-rus.php"
+                                method="post" role="form">
+                                <div class="container text-center"
+                                    style="background-color: #1b904e; border-radius: 9px 9px 0px 0px;  padding: 20px; margin-bottom: 20px; color: white; font-size: 30px;">
+                                    ПОЛУЧИТЬ PDF </div>
+                                <div style="padding:20px;">
+                                    <div class="form-group">
+                                        <label class="form-label" for="email">Ваша почта*</label>
+                                        <input type="email" class="form-control" id="email" name="email"
+                                            placeholder="Your Email" required name="email">
+                                    </div>
+                                    <div class="text-center">
+                                        <button type="submit" style="font-weight: bold;"
+                                            class="btn btn-start-order">ОТПРАВИТЬ</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2018-2020 <a href="https://spheredigitech.com/" target="_blank"> <span>SPHERE</span> </a> </p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="/dist/app.js"></script>
+
+    <!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '498609274460964');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=498609274460964&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    
+</body>
+
+</html>
